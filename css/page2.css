@@ -1,0 +1,30 @@
+h1{
+  color:blue;
+}
+table{
+  width:50vw;
+  margin: 50px auto;
+    /*border-collapse: collapse;*/
+}
+
+
+table tr td, table tr th{
+  text-align:center;
+  padding:10px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  /*size,style,color*/
+
+}
+
+table tr th{
+  font-size: 120%;
+  color: lightgrey;
+}
+
+table tr:nth-child(even){
+background-color: lightgreen;
+}
+table tr:first-child{
+  background-color: #000;
+}
